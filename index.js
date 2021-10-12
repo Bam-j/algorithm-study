@@ -1,5 +1,5 @@
-import {simpleSelectSort} from './study-code/sort/simple-select-sort.js';
+import {simpleInsertionSort} from './study-code/sort/simple-insertion-sort.js';
 
 let arr = [3, 9, 4, 1, 5, 8];
 
-console.log(simpleSelectSort(arr));
+console.log(simpleInsertionSort(arr));
