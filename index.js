@@ -1,5 +1,5 @@
-import {simpleInsertionSort} from './study-code/sort/simple-insertion-sort.js';
+import {shellSort} from './study-code/sort/shell-sort.js';
 
-let arr = [3, 9, 4, 1, 5, 8];
+let arr = [3, 8, 1, 4, 9, 6, 2, 5];
 
-console.log(simpleInsertionSort(arr));
+console.log(shellSort(arr));

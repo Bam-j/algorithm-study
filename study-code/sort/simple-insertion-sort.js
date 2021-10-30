@@ -1,4 +1,4 @@
-export let simpleInsertionSort = (arr) => {
+export const simpleInsertionSort = arr => {
     for (let i = 1; i < arr.length; i++) {
         let j;
         let temp = arr[i];
