@@ -1,5 +1,5 @@
-import {shellSort} from './study-code/sort/shell-sort.js';
+import {quickSort} from './study-code/sort/quick-sort.js';
 
-let arr = [3, 8, 1, 4, 9, 6, 2, 5];
+let arr = [3, 8, 6, 4, 9, 1];
 
-console.log(shellSort(arr));
+console.log(quickSort(arr));
