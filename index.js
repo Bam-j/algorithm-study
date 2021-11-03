@@ -1,5 +1,5 @@
-import {quickSort} from './study-code/sort/quick-sort.js';
+import {mergeSort} from './study-code/sort/merge-sort.js';
 
-let arr = [3, 8, 6, 4, 9, 1];
+let arr = [3, 4, 7, 1, 9, 2, 5, 8];
 
-console.log(quickSort(arr));
+console.log(mergeSort(arr));
