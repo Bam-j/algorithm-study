@@ -1,5 +1,5 @@
-import {heapSort} from './study-code/sort/heap-sort.js';
+import {countingSort} from './study-code/sort/counting-sort.js';
 
-let arr = [3, 4, 7, 1, 9, 2, 5, 8];
+let arr = [3, 2, 2, 4, 1, 2, 4, 1];
 
-console.log(heapSort(arr));
+console.log(countingSort(arr, 4));
