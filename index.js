@@ -1,5 +1,5 @@
-import {countingSort} from './study-code/sort/counting-sort.js';
+import {radixSort} from './study-code/sort/radix-sort.js';
 
-let arr = [3, 2, 2, 4, 1, 2, 4, 1];
+let arr = [3, 17, 6, 46, 22, 13];
 
-console.log(countingSort(arr, 4));
+console.log(radixSort(arr, 2));
