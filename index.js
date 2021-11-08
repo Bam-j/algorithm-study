@@ -1,3 +1,3 @@
-import {euclideanAlgorithm} from './study-code/recursive/euclidean-algorithm.js';
+import {towersOfHanoi} from './study-code/recursive/towers-of-hanoi.js';
 
-console.log(euclideanAlgorithm(30, 12));
+towersOfHanoi(3, 1, 3);
