@@ -1,5 +1,3 @@
-import {radixSort} from './study-code/sort/radix-sort.js';
+import {euclideanAlgorithm} from './study-code/recursive/euclidean-algorithm.js';
 
-let arr = [3, 17, 6, 46, 22, 13];
-
-console.log(radixSort(arr, 2));
+console.log(euclideanAlgorithm(30, 12));
