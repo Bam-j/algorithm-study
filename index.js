@@ -1,3 +1,3 @@
-import {towersOfHanoi} from './study-code/recursive/towers-of-hanoi.js';
+import {eightQueen} from './study-code/recursive/eight-queen.js';
 
-towersOfHanoi(3, 1, 3);
+eightQueen(0);
