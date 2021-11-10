@@ -1,7 +1,9 @@
-import {linearSearch} from './study-code/search/linear-search.js';
-import {sentinelMethodLinearSearch} from './study-code/search/sentinel-method-linear-search.js';
+import {binarySearch} from './study-code/search/binary-search.js';
 
-const arr = [32, 44, 5, 4, 7, 13, 17, 30, 25, 51];
+const arr = [3, 9, 11, 15, 16, 21, 22,  26, 29];
 
-linearSearch(arr, 30);
-sentinelMethodLinearSearch(arr, 10, 6);
+console.log("검색 키: 26");
+binarySearch(arr, 26);
+
+console.log("검색 키: 4");
+binarySearch(arr, 4);
