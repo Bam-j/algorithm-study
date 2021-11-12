@@ -1,5 +1,6 @@
-import {bruteForceMethod} from './study-code/search/brute-force-method.js';
+import {boyerMoore} from './study-code/search/boyer-moore.js';
 
-const str = ('theworldserieschampion');
+const str = 'ABCXDEZCABACABAC';
 
-bruteForceMethod(str, 'champ');
+boyerMoore(str, 'ABAC');
+boyerMoore(str, 'CCC');
