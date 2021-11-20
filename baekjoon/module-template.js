@@ -3,19 +3,6 @@
  */
 const input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
 
-/*
-    readline
- */
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
-
-readline.on('line', function(line) {
-}).on('close', function(){
-    process.exit();
-});
-
 
 /*
     readline input
