@@ -21,13 +21,14 @@ readline.on('line', function(line) {
 });
 
 //빠른 계산
+//배열로 정답들을 다 담은후 배열을 출력
+//console.log();가 여러줄일때 일일히 사용하는 것보다 빠른 방식
+
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
 });
 
-//배열로 정답들을 다 담은후 배열을 출력
-//console.log();가 여러줄일때 일일히 사용하는 것보다 빠른 방식
 let answer = [];
 
 readline.on('line', function(line) {
