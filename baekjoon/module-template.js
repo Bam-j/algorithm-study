@@ -1,7 +1,7 @@
 /*
     fs
  */
-const input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
+const input = require('fs').readFileSync('/dev/stdin').toString().trim().split(' ');
 
 
 /*
