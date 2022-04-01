@@ -2,20 +2,23 @@
     알고리즘 풀이 테스트 코트용 파일입니다.
  */
 
-function solution(s){
-    let numsOfP = 0;
-    let numsOfY = 0;
+function solution(a, b) {
+    if (a === b) return a;
 
-    s.split('').map(v => {
-        if (v === 'P' || v === 'p') {
-            numsOfP++;
-        }
-        else if (v === 'Y' || v === 'y') {
-            numsOfY++;
-        }
-    });
+    let result = 0;
 
-    return numsOfP === numsOfY;
+    if(a > b) {
+        for (let i = a; b; i++) {
+            result += i;
+        }
+    }
+    else {
+        for (let i = b; a; i++) {
+            result += i;
+        }
+    }
+
+    return console.log(result);
 }
 
-console.log(solution('pPoooyY'));
+console.log(solution(3, 6));
