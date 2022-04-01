@@ -5,5 +5,9 @@ function solution(s) {
         codeOfArr.push(s.charCodeAt(i));
     }
 
-    return (codeOfArr.sort((v1, v2) => v2 - v1)).map(v => String.fromCharCode(v)).join('');
+    return (
+        (codeOfArr.sort((v1, v2) => v2 - v1))
+            .map(v => String.fromCharCode(v))
+            .join('')
+    );
 }

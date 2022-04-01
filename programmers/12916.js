@@ -1,7 +1,3 @@
-/*
-    알고리즘 풀이 테스트 코트용 파일입니다.
- */
-
 function solution(s){
     let numsOfP = 0;
     let numsOfY = 0;
@@ -17,5 +13,3 @@ function solution(s){
 
     return numsOfP === numsOfY;
 }
-
-console.log(solution('pPoooyY'));
